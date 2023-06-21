@@ -1,0 +1,136 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    
+}
+
+footer {
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+
+}
+
+:root{
+
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.logo-accent-color{
+    color:#4D5AE5;
+}
+
+
+/* Navigation */
+.nav-style{
+    font-size: 12px;
+    list-style: none;
+    
+}
+
+.nav-style a{
+    text-decoration: none;
+    color: #2E2F42;
+    
+}
+
+.nav-style:hover,
+.nav-style:active{
+    text-decoration: underline;
+}
+
+
+.nav-style a{
+    text-align: left;
+
+    
+}
+
+/* Contact */
+.contact-style,
+.contact-style ul{
+    font-size: 16px;
+    font-style: normal;
+    list-style: none;
+    
+    
+}
+.contact-style a{
+    text-decoration: none;
+    color: #434455;
+}
+
+.contact-style:hover{
+    text-decoration: underline;
+}
+
+/* Main content */
+/* Title h1 */
+.title-main{
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+    color: white;
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    text-align: center;
+}
+
+/* Benefits */
+.benefits-style{
+    font-size: 20px;
+    letter-spacing: 2%;
+    list-style: none;
+}
+
+.benefits-style p{
+    font-size: 16px;
+}
+
+/* About us */
+.about-us-style,
+.team-style{
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 2%;
+    text-transform: capitalize;   
+}
+
+
+.team-style h3{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.team-style p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
+.cloud-bg{
+    background-color: #F4F4FD;
+}
+
+.filter-button-style{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+}
+
