@@ -24,29 +24,34 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--navy-color);
+    color: #4D5AE5;
     }
 
 .logo-accent-color{
-    color:#4D5AE5;
+    color: #2e2f42
 }
 
 
 /* Navigation */
-.nav-style{
-    font-size: 12px;
+.list{
     list-style: none;
     
 }
 
-.nav-style a{
-    text-decoration: none;
-    color: var(--navy-color);
-    
+.list-style{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-color);    
 }
 
-.nav-style:hover,
-.nav-style:active{
+.list-dec{
+    text-decoration: none;
+}
+
+.list:hover,
+.list:active{
     text-decoration: underline;
 }
 
