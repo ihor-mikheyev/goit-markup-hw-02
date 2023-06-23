@@ -1,18 +1,11 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #434455;
+    background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 4%;
     
-}
-
-footer {
-    color: #F4F4FD;
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
-
 }
 
 :root{
@@ -23,6 +16,7 @@ footer {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo-accent-color{
@@ -81,8 +75,6 @@ footer {
     line-height: 60px;
     color: white;
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
     text-align: center;
 }
 
@@ -134,3 +126,7 @@ footer {
     border: 1px solid #E7E9FC;
 }
 
+footer {
+    color: #F4F4FD;
+    background-color: #2E2F42;
+}
