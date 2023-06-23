@@ -1,8 +1,8 @@
 body{
-    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
     line-height: 1.5;
     letter-spacing: 4%;
     
@@ -11,6 +11,7 @@ body{
 :root{
     --cloud-color:  #F4F4FD;
     --navy-color:  #2E2F42;
+    --white-color: #FFFFFF;
 }
 
 
