@@ -1,5 +1,5 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;;
     font-size: 16px;
     color: #434455;
     background-color: #FFFFFF;
@@ -9,15 +9,19 @@ body{
 }
 
 :root{
-
+    --cloud-color:  #F4F4FD;
+    --navy-color:  #2E2F42;
 }
+
+
 
 .logo{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-}
+    color: var(--navy-color);
+    }
 
 .logo-accent-color{
     color:#4D5AE5;
@@ -33,7 +37,7 @@ body{
 
 .nav-style a{
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--navy-color);
     
 }
 
@@ -42,12 +46,6 @@ body{
     text-decoration: underline;
 }
 
-
-.nav-style a{
-    text-align: left;
-
-    
-}
 
 /* Contact */
 .contact-style,
@@ -115,7 +113,7 @@ body{
 }
 
 .cloud-bg{
-    background-color: #F4F4FD;
+    background-color: var(--cloud-color);
 }
 
 .filter-button-style{
