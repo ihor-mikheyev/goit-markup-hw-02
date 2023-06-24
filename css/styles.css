@@ -18,12 +18,20 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     color: #4D5AE5;
     }
 
 .logo-accent-color{
     color: #2e2f42
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:focus,
+.link:hover{
+    color: #404bbf;
 }
 
 
@@ -52,11 +60,10 @@ body{
 
 
 /* Contact */
-.contact-style,
-.contact-style ul{
+.contact-link{
     font-size: 16px;
-    font-style: normal;
-    list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     
     
 }
