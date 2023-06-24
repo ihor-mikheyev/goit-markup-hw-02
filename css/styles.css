@@ -49,10 +49,6 @@ body{
     color: var(--navy-color);    
 }
 
-.list-dec{
-    text-decoration: none;
-}
-
 .list:hover,
 .list:active{
     text-decoration: underline;
