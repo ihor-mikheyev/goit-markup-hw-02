@@ -63,8 +63,8 @@ body{
     
     
 }
-.contact-style a{
-    text-decoration: none;
+.contact-style {
+    font-style: normal;
     color: #434455;
 }
 
