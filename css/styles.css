@@ -56,20 +56,9 @@ body{
 
 
 /* Contact */
-.contact-link{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.contact-style{
+    font-style: normal;  
     
-    
-}
-.contact-style {
-    font-style: normal;
-    color: #434455;
-}
-
-.contact-style:hover{
-    text-decoration: underline;
 }
 
 /* Main content */
