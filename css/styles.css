@@ -69,14 +69,19 @@ body{
 
 /* Main content */
 /* Title h1 */
-.title-main{
+.title-style{
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     color: white;
     background-color: #2E2F42;
     text-align: center;
 }
+
+.order-button{
+    background-color: #4D5AE5;
+    }
+
 
 /* Benefits */
 .benefits-style{
