@@ -1,11 +1,11 @@
-:root {
-    --primary-font: "Roboto", sans-serif;
+:root{
+    --primary-font: 'Roboto', sans-serif;
     --cloud-color: #F4F4FD;
     --navy-color: #2E2F42;
     --white-color: #FFFFFF;
 }
 
-body {
+body{
     font-family: var(--primary-font);
     color: #434455;
     background-color: var(--white-color);   
