@@ -168,6 +168,14 @@ body{
     cursor: pointer;
 }
 
+.project-card-header{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .footer {
     color: #F4F4FD;
     background-color: #2E2F42;
