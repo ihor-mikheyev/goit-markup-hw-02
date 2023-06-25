@@ -115,7 +115,8 @@ body{
 }
 
 /* About us */
-.about-us-style{
+.about-us-style,
+.team-style{
     font-size: 36px;
     text-align: center;
     line-height: 1.11;
@@ -124,18 +125,23 @@ body{
     text-transform: capitalize;   
 }
 
+.member-card{
+    background-color: #FFFFFF;
+}
 
-.team-style h3{
+.title-card{
     font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     text-align: center;
 }
 
-.team-style p{
+.position-card{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
