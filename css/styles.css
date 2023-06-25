@@ -69,18 +69,32 @@ body{
 
 /* Main content */
 /* Title h1 */
+.main-screen{
+    background-color: #2E2F42;
+}
 .title-style{
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
     color: white;
-    background-color: #2E2F42;
     text-align: center;
 }
 
 .order-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
     background-color: #4D5AE5;
     }
+
+.order-button:hover,
+.order-button:active{
+    background-color: #404BBF;
+    cursor: pointer;
+}
 
 
 /* Benefits */
