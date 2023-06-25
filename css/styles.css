@@ -158,10 +158,11 @@ body{
     text-align: center;
     color: #4D5AE5;
     border: 1px solid #E7E9FC;
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
-.filter-button-style:hover{
+.filter-button-style:hover, 
+.filter-button-style:focus{
     color: #FFFFFF;
     background-color: #404BBF;
     cursor: pointer;
