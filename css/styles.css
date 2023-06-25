@@ -115,11 +115,10 @@ body{
 }
 
 /* About us */
-.about-us-style,
-.team-style{
+.about-us-style{
     font-size: 36px;
     text-align: center;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;   
