@@ -92,10 +92,11 @@ body{
     }
 
 .order-button:hover,
-.order-button:active{
+.order-button:focus{
     background-color: #404BBF;
     cursor: pointer;
 }
+
 
 
 /* Benefits */
