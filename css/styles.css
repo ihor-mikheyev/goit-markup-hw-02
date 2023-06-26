@@ -1,18 +1,16 @@
 :root{
     --primary-font: 'Roboto', sans-serif;
-    --cloud-color: #F4F4FD;
-    --navy-color: #2E2F42;
-    --white-color: #FFFFFF;
+    --secondary-font: "Raleway", sans-serif;
 }
 
 body{
     font-family: var(--primary-font);
     color: #434455;
-    background-color: var(--white-color);   
+    background-color: #FFFFFF;   
 }
 
 .logo{
-    font-family: "Raleway", sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -46,11 +44,11 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-color);    
+    color: #434455;    
 }
 
-.list:hover,
-.list:active{
+.list-style:hover,
+.list-style:focus{
     text-decoration: underline;
 }
 
@@ -76,25 +74,24 @@ body{
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
 }
 
 .order-button{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    cursor: pointer;
     }
 
 .order-button:hover,
 .order-button:focus{
     background-color: #404BBF;
-    cursor: pointer;
 }
 
 
@@ -146,11 +143,11 @@ body{
 }
 
 .cloud-bg{
-    background-color: var(--cloud-color);
+    background-color: #F4F4FD;
 }
 
 .filter-button-style{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -159,13 +156,13 @@ body{
     color: #4D5AE5;
     border: 1px solid #E7E9FC;
     background-color: #F4F4FD;
+    cursor: pointer;
 }
 
 .filter-button-style:hover, 
 .filter-button-style:focus{
     color: #FFFFFF;
     background-color: #404BBF;
-    cursor: pointer;
 }
 
 .project-card-header{
